@@ -27,3 +27,4 @@ clean:
 	rm -rf reports/qmd_example.html \
 		reports/qmd_example.pdf \
 		reports/qmd_example_files
+		docs
