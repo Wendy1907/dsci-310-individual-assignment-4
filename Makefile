@@ -26,6 +26,9 @@ docs/index.html: reports/qmd_example.html
 	mkdir -p docs
 	cp reports/qmd_example.html docs/index.html
 	cp -r reports/qmd_example_files docs/ 2>/dev/null || true	
+	mkdir -p docs/results
+	cp results/horse_pops_plot.png docs/results/
+	cp results/horse_pop_plot_largest_sd.png docs/results/
 
 # clean
 clean:
